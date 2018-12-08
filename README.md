@@ -2,12 +2,12 @@
 Intel® Media SDK provides an API to access hardware-accelerated video decode, encode and filtering on Intel® platforms with integrated graphics.
 
 **Supported video encoders**: HEVC, AVC, MPEG-2, JPEG  
-**Supported Video decoders**: HEVC, AVC, VP8, MPEG-2, VC1, JPEG  
+**Supported video decoders**: HEVC, AVC, VP8, MPEG-2, VC1, JPEG  
 **Supported video pre-processing filters**: Color Conversion, Deinterlace, Denoise, Resize, Rotate, Composition
 
 # Important note
-The current version of Intel Media SDK is compatible with the open source [Intel Media Driver for VAAPI](https://github.com/intel/media-driver).
-Intel Media SDK depends on [LibVA](https://github.com/01org/libva/). 
+The current version of Intel® Media SDK is compatible with the open source [Intel® Media Driver for VAAPI](https://github.com/intel/media-driver).
+Intel® Media SDK depends on [LibVA](https://github.com/01org/libva/). 
 
 # FAQ
 You can find answers for the most frequently asked questions [here](https://software.intel.com/sites/default/files/managed/c0/8e/intel-media-sdk-open-source-faq.pdf).
@@ -26,7 +26,7 @@ You can find answers for the most frequently asked questions [here](https://soft
   * [See also](#see-also)
 
 # License
-Intel Media SDK is licensed under MIT license. See [LICENSE](./LICENSE) for details.
+Intel® Media SDK is licensed under MIT license. See [LICENSE](./LICENSE) for details.
 
 # How to contribute
 See [CONTRIBUTING](./CONTRIBUTING.md) for details. Thank you!
@@ -42,12 +42,12 @@ Please find full documentation under the `doc/` folder. Key documents:
 
 Visit our [Github Wiki](https://github.com/Intel-Media-SDK/MediaSDK/wiki) for the detailed setting and building instructions, runtime tips and other information.
 
-You may also wish to visit Intel Media Server Studio [support page](https://software.intel.com/en-us/intel-media-server-studio-support/documentation) for additional documentation.
+You may also wish to visit Intel® Media Server Studio [support page](https://software.intel.com/en-us/intel-media-server-studio-support/documentation) for additional documentation.
 
 # Products which use Media SDK
 
-* [Intel Media Server Studio](https://software.intel.com/en-us/intel-media-server-studio)
-* [Intel Media SDK for Embedded Linux](https://software.intel.com/en-us/media-sdk/choose-download/embedded-iot)
+* [Intel® Media Server Studio](https://software.intel.com/en-us/intel-media-server-studio)
+* [Intel® Media SDK for Embedded Linux*](https://software.intel.com/en-us/media-sdk/choose-download/embedded-iot)
 
 # System requirements
 
@@ -56,10 +56,10 @@ You may also wish to visit Intel Media Server Studio [support page](https://soft
 **Software:**
 * [LibVA](https://github.com/intel/libva)
 * VAAPI backend driver:
-  * [Intel Media Driver for VAAPI](https://github.com/intel/media-driver)
-* Some features require CM Runtime library (part of [Intel Media Driver for VAAPI](https://github.com/intel/media-driver) package)
+  * [Intel® Media Driver for VAAPI](https://github.com/intel/media-driver)
+* Some features require CM Runtime library (part of [Intel® Media Driver for VAAPI](https://github.com/intel/media-driver) package)
 
-**Hardware:** Intel platforms supported by the [Intel Media Driver for VAAPI](https://github.com/intel/media-driver)
+**Hardware:** Intel® platforms supported by the [Intel® Media Driver for VAAPI](https://github.com/intel/media-driver)
 
 Media SDK test and sample applications may require additional software packages (for example, X Server, Wayland, LibDRM, etc.) to be functional.
 
@@ -121,8 +121,8 @@ Output=0x10
 
 # Recommendations
 
-* In case of GCC compiler it is strongly recommended to use GCC version 6 or later since that's the first GCC version which has non-experimental support of C++11 being used in Media SDK.
+* In the case of the GCC compiler, it is strongly recommended to use GCC version 6 or later since that's the first GCC version which has non-experimental support of C++11 being used in Media SDK.
 
 # See also
 
-Intel Media SDK: https://software.intel.com/en-us/media-sdk
+Intel® Media SDK: https://software.intel.com/en-us/media-sdk
